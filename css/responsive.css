@@ -1,0 +1,213 @@
+/*
+   Avapro Theme Responsive Design
+*/
+@media (max-width: 1170px) {
+    .about-content-right {
+        padding: 70px 60px;
+    }
+    .about-img {
+        right: -190px;
+        background-size: 70%;
+    }
+}
+@media (max-width: 1024px) {
+    .hero-section{
+        height: 650px;
+    }
+    h1{ line-height: 1; }
+    .about-img {
+        right: -200px;
+        background-size: 65%;
+    }
+    .about-content-right h2 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+    .about-content-left h2 {
+        margin: 0 0 0 -125px;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-padding{ padding: 15px; }
+    ul.nav > li > a {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .hero-section{
+        height: 970px;
+    }
+    .hero-content img{
+        width: 320px;
+    }
+    .about-content-right h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .about-content-right {
+        padding: 60px 50px;
+    }
+    .about-content-left h2 {
+        margin: 0px 0 0 -128px;
+        font-size: 70px;
+    }
+    .post-head h2 { font-size: 28px; }
+    .main-content .comments-area li > div { padding: 35px 25px; }
+    .main-content .comment-respond .comment-reply-title,
+    .main-content .comments-area .comments-title { font-size: 20px; }
+    .main-content .comment-respond form input,
+    .main-content .comment-respond form textarea { height: 40px; }
+    .main-content .comment-respond form textarea { height: 150px; }
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    h1{
+        font-size: 45px!important;
+        line-height: 45px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .cta-content h2 br,
+    p br{
+        display: none;
+    }
+    .about-section,
+    .padding{
+        padding: 60px 0;
+    }
+    .pd-15,
+    .sm-padding,
+    .xs-padding{
+    	padding: 10px;
+    }
+    .navbar-brand{
+        padding: 11px 0;
+    }
+    .header-btn{ margin-right: 50px; }
+    .menu-wrap ul.nav{
+        display: none;
+    }
+    .slicknav_menu {
+        display:block;
+    }
+    .about-content-left{
+        background-color: transparent;
+    }
+    .about-content-left,
+    .about-content-right {
+        padding: 0 15px;
+    }
+    .about-img { display: none; }
+    .about-content-left h2{ 
+        transform: inherit;
+        margin: 0 0 -10px;
+        font-size: 30px;
+    }
+    .about-content-right h2 {
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .section-heading h2:before {
+        width: 80px;
+        height: 7px;
+        bottom: 6px;
+    }
+    .portfolio-content h3 a{ font-size: 18px; }
+    .post-meta span{ font-size: 10px; }
+    .page-header{
+        height: 380px;
+        padding-top: 40px;
+    }
+    .page-header-content h1{ font-size: 45px; }
+    .post-head h2 { font-size: 24px; }
+    .main-content h3{ font-size: 20px; }
+    .main-content blockquote {
+        padding: 55px 25px;
+    }
+    .main-content blockquote:before {
+        display: none;
+    }
+    .main-content .comments-area .comment-thumb { position: static; }
+    .main-content .comments-area .comment-main-area {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+    .main-content .comment-respond .form-inputs > input:nth-child(2) {
+        width: 100%;
+        float: none;
+    }
+    .main-content .comment-respond .form-inputs > input:nth-child(3) {
+        width: 100%;
+        float: none;
+    }
+    .main-content .comments-area,
+    .post-navigation,
+    .author-box,
+    .single-footer{
+        margin-top: 50px;
+    }
+    .sidebar-wrap { margin-top: 40px; }
+    .contact-form{ margin-top: 20px; }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 576px CSS ---- */
+@media all and (max-width: 576px) {
+    .subscribe-form{ width: 100%; }
+    .social-link li{
+        margin: 0;
+    }
+    .contact-section{ padding: 0; }
+    .colum-row .col-sm-6:not(:last-of-type){ margin-bottom: 15px; }
+    #google_map {
+        height: 250px;
+        position: inherit;
+    }
+    .contact-wrap{
+        padding: 60px 15px; 
+        margin-top: 0;
+    }
+    .post-navigation .col a{ font-size: 14px; }
+    .author-box{ padding-left: 20px; }
+    .author-box .author-thumb {
+        position: inherit;
+        left: inherit;
+        top: inherit;
+        display: block;
+        margin-bottom: 16px;
+    }
+    .post-head .single-post-meta li{ margin-bottom: 10px; }
+}
+/* ---- End of max-width 576px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	
+}
+/* ---- End of max-width 380px CSS ---- */
